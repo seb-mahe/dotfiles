@@ -1,0 +1,17 @@
+#!/usr/bin/bin/env bash
+
+# shortcuts
+alias cls='clear'
+alias c='clear'
+
+# exa (ls replacement)
+alias ls='exa'
+alias ll='exa --long --git'
+alias la='exa -a'
+alias lla='exa --long --git --all --header'
+
+# git
+alias gs='git status'
+alias ga='git add .'
+alias gm='git commit -m $1'
+alias gp='git push'
