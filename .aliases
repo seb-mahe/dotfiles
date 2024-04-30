@@ -1,8 +1,17 @@
 #!/usr/bin/bin/env bash
 
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ~='cd ~' # `cd` is probably faster to type though
+alias -- -='cd -'
+
 # shortcuts
 alias cls='clear'
 alias c='clear'
+alias n='nano'
 
 # exa (ls replacement)
 alias ls='exa'
@@ -11,7 +20,28 @@ alias la='exa -a'
 alias lla='exa --long --git --all --header'
 
 # git
+alias g='git'
 alias gs='git status'
 alias ga='git add .'
 alias gc='git commit -m $1'
 alias gp='git push'
+alias gl='git pull'
+
+function gpush() {
+    ga
+    gc "Auto backup"
+    gp
+}
+
+
+# apt
+alias update='sudo apt update'
+alias upgrade='sudo apt upgrade'
+alias upgradable='sudo apt list --upgradable'
+
+
+
+# networking
+alias ips="ifconfig | grep 'inet '"
+
+
