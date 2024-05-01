@@ -12,6 +12,7 @@ alias -- -='cd -'
 alias cls='clear'
 alias c='clear'
 alias n='nano'
+alias s="source ~/.zshrc"
 
 # exa (ls replacement)
 alias ls='exa'
@@ -45,3 +46,23 @@ alias upgradable='sudo apt list --upgradable'
 alias ips="ifconfig | grep 'inet '"
 
 
+
+
+
+function mkd() {
+    mkdir -p $1
+    cd $1
+}
+
+
+# string manipulation
+# trim
+alias trim="awk '{\$1=\$1;print}'"
+
+
+
+function note() {
+    echo "## $(date)" >> $HOME/notes.md
+    echo "$@" >> $HOME/notes.md
+    echo "" >> $HOME/notes.md
+}
