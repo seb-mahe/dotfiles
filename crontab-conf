@@ -25,4 +25,4 @@
 
 
 # backup cron
-*/1 * * * * crontab -l > ~/dotfiles/crontab-conf
+0 9 * * * crontab -l > ~/dotfiles/crontab-conf
