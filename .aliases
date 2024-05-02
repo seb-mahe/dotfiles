@@ -66,3 +66,6 @@ function note() {
     echo "$@" >> $HOME/notes.md
     echo "" >> $HOME/notes.md
 }
+
+
+# test cron task
