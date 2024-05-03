@@ -20,4 +20,5 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 source ./install.sh
 
 #---- force a relaod of the ZHS
+cd ~
 source ~/.zshrc
