@@ -13,8 +13,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # customize with Powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-rm ~/.zshrc
-rm ~/.bashrc
+#rm ~/.zshrc
+#rm ~/.bashrc
 
 #---- Create stow links
 source ./install.sh
+
+#---- force a relaod of the ZHS
+source ~/.zshrc
