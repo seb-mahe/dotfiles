@@ -2,20 +2,20 @@
 
 If `git` is not installed:
 
-```sh
+```shell
 sudo apt update
 sudo apt install git
 ```
 
 Get source:
 
-```sh
+```shell
 git clone https://github.com/seb-mahe/dotfiles.git
 ```
 
 And execute:
 
-```sh
+```shell
 source ./install_new.sh
 ```
 
