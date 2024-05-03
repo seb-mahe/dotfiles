@@ -19,4 +19,3 @@ And execute:
 cd dotfiles
 source ./install_new.sh
 ```
-
