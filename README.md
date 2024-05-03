@@ -1,5 +1,12 @@
 ## Setup a new machine
 
+If `git` is not installed:
+
+```
+sudo apt update
+sudo apt install git
+```
+
 Get source:
 
 ```
