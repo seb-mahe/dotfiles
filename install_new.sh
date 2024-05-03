@@ -1,5 +1,5 @@
 # install zsh and oh-my-zsh
-sudo apt install zsh git fonts-font-awesome stow
+sudo apt install zsh git fonts-font-awesome stow -y
 
 # change shell to ZSH
 chsh -s $(which zsh)
