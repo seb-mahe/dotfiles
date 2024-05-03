@@ -21,4 +21,5 @@ source ./install.sh
 
 #---- force a relaod of the ZHS
 cd ~
-source ~/.zshrc
+
+echo Please logout and login again for changes to apply
