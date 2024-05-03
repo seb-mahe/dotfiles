@@ -1,3 +1,4 @@
+#---- Create stow links
 stow -D .
 
 stow -D bash
