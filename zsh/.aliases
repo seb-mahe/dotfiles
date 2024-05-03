@@ -35,7 +35,7 @@ function gpush() {
 }
 
 # bat - On Ubuntu bat is called batcat
-alias bat='batcat'
+alias bat='batcat -n'
 
 
 # apt
