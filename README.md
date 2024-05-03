@@ -16,6 +16,7 @@ git clone https://github.com/seb-mahe/dotfiles.git
 And execute:
 
 ```shell
+cd dotfiles
 source ./install_new.sh
 ```
 
