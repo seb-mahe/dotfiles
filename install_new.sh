@@ -7,7 +7,7 @@ sudo apt install zsh git fonts-font-awesome stow bat -y
 chsh -s $(which zsh)
 
 # install oh-my-zsh
-sh -c "$(wget -qO- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
 # enable auto-suggestion
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
