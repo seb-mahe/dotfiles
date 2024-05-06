@@ -15,10 +15,12 @@ alias n='nano'
 alias s="source ~/.zshrc"
 
 # exa (ls replacement)
-alias ls='exa'
-alias ll='exa --long --git'
-alias la='exa -a'
-alias lla='exa --long --git --all --header'
+if command -v exa &> /dev/null
+    alias ls='exa'
+    alias ll='exa --long --git'
+    alias la='exa -a'
+    alias lla='exa --long --git --all --header'
+fi
 
 # git
 alias g='git'
