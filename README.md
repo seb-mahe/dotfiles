@@ -10,6 +10,7 @@ sudo apt install git
 Get source:
 
 ```shell
+cd ~
 git clone https://github.com/seb-mahe/dotfiles.git
 ```
 
