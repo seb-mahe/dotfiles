@@ -15,7 +15,8 @@ alias n='nano'
 alias s="source ~/.zshrc"
 
 # exa (ls replacement)
-if command -v exa &> /dev/null
+if command -v exa > /dev/null 2>&1;
+then
     alias ls='exa'
     alias ll='exa --long --git'
     alias la='exa -a'
