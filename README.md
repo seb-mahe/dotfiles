@@ -20,3 +20,9 @@ And execute:
 cd dotfiles
 source ./install_new.sh
 ```
+
+After this, install manually [exz](https://eza.rocks/) (replacement of [exa](https://the.exa.website/)]:
+PS: may not work on older versions of Ubuntu.
+```sh
+sudo apt install eza
+```
