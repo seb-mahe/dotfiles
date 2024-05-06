@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # install zsh and oh-my-zsh
 sudo apt install zsh git fonts-font-awesome stow eza bat -y
 
