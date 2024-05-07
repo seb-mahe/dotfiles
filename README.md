@@ -26,3 +26,5 @@ PS: may not work on older versions of Ubuntu.
 ```sh
 sudo apt install eza
 ```
+
+Logout and login again.
