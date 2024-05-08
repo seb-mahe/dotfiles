@@ -75,4 +75,5 @@ function note() {
 }
 
 
-# test cron task 5
+#-- python web server
+alias webserver="python3 -m http.server $1"
