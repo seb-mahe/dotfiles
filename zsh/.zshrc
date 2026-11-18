@@ -113,3 +113,6 @@ source $HOME/.aliases
 
 # golang
 export PATH=$PATH:/usr/local/go/bin
+
+# Created by `pipx` on 2026-11-18 02:27:37
+export PATH="$PATH:/home/seb/.local/bin"
